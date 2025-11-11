@@ -1,0 +1,108 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  color: #222;
+}
+
+header {
+  background-color: #111;
+  color: #fdd835;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header p {
+  color: #ccc;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.highlight {
+  color: #fdd835;
+  font-weight: bold;
+}
+
+button {
+  background-color: #fdd835;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e6c200;
+}
+
+.hidden {
+  display: none;
+  margin-top: 10px;
+  color: #444;
+}
+
+.conscie, .galeria, .video {
+  margin-top: 40px;
+}
+
+blockquote {
+  border-left: 4px solid #fdd835;
+  padding-left: 10px;
+  color: #555;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.galeria .fotos {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galeria img {
+  width: 280px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+.video iframe {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
